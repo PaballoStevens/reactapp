@@ -18,19 +18,8 @@ function Home(){
     const data = {
       name:RecordInput.name
     }
-    axios.post('./api/records', data).then(res => {
-      if (res.data.status === 200) {
-       
-      } else if (res.data.status === 401) {
-       
-      } else {
-       
-      } {
-        
-      }
-     })
-
     
+      
   }
 
     return(
