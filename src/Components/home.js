@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Skeleton from '@mui/material/Skeleton';
+import Grid from '@mui/material/Grid';
 
 const data = [
   {
@@ -81,6 +82,8 @@ export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
+      <Grid item sm={6}>
+        </Grid>
       <Container maxWidth="sm">
         <Box sm={{ height: '100vh' ,  overflow: 'hidden' }}>
         <Media loading />
