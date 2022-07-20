@@ -82,7 +82,8 @@ export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Grid item sm={6}>
+      <Grid >
+
         </Grid>
       <Container maxWidth="sm">
         <Box sm={{ height: '100vh' ,  overflow: 'hidden' }}>
