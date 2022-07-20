@@ -25,6 +25,8 @@ function Home(){
     return(
         <form onSubmit={Submit}>
           <input type="text" name="name" onChange={handleInput} value={RecordInput.name} />
+          <input type="text" name="name" onChange={handleInput} value={RecordInput.name} />
+          <input type="text" name="name" onChange={handleInput} value={RecordInput.name} />
 
         </form>
     );
