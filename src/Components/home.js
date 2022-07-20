@@ -88,9 +88,6 @@ export default function SimpleContainer() {
       <ListItem>
         <Typography>Test</Typography>
       </ListItem>
-      <ListItem>
-        <Typography>Test</Typography>
-      </ListItem>
       </List>
       <Divider orientation="vertical" flexItem>
       </Divider>
