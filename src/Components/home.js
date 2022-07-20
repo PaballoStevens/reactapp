@@ -82,9 +82,8 @@ export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Grid >
-
-        </Grid>
+       <Grid 
+        sx={{ px: 2, py: 1 }}/>
       <Container maxWidth="sm">
         <Box sm={{ height: '100vh' ,  overflow: 'hidden' }}>
         <Media loading />
