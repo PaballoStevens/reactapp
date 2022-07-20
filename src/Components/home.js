@@ -7,6 +7,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Skeleton from '@mui/material/Skeleton';
 import { ListItem } from '@mui/material';
+import Divider from '@mui/material/Divider';
 
 const data = [
   {
@@ -80,11 +81,12 @@ Media.propTypes = {
 
 export default function SimpleContainer() {
   return (
-    <React.Fragment>
+    <React.Fragment container>
       <CssBaseline />
       <ListItem>
         t
       </ListItem>
+      <Divider orientation="vertical" flexItem/>
        <Grid 
         sx={{ px: 2, py: 1 }}/>
       <Container maxWidth="sm">
