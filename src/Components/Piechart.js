@@ -1,10 +1,16 @@
 import React from "react";
+import CssBaseline from '@mui/material/CssBaseline';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 import Chart from "react-google-charts";
 
 function PieChart(){
     return (
-       <div>
+      <React.Fragment>
+      <CssBaseline />
+      <Container maxWidth="sm">
         Pie Chart
+        <Box sx={{  height: '100vh' }}>
        <Chart
          width={'900px'}
          height={'500px'}
@@ -30,7 +36,9 @@ function PieChart(){
             },
           }} 
        />
-       </div>
+       </Box>
+       </Container>
+    </React.Fragment>
     );
 }
 
