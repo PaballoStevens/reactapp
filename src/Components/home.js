@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import Skeleton from '@mui/material/Skeleton';
 import { ListItem } from '@mui/material';
 import Divider from '@mui/material/Divider';
+import List from '@mui/material';
 
 const data = [
   {
@@ -83,10 +84,16 @@ export default function SimpleContainer() {
   return (
     <React.Fragment container>
       <CssBaseline />
+      <List>
       <ListItem>
-        t
+        <Typography>Test</Typography>
       </ListItem>
-      <Divider orientation="vertical" flexItem/>
+      <ListItem>
+        <Typography>Test</Typography>
+      </ListItem>
+      </List>
+      <Divider orientation="vertical" flexItem>
+      </Divider>
        <Grid 
         sx={{ px: 2, py: 1 }}/>
       <Container maxWidth="sm">
