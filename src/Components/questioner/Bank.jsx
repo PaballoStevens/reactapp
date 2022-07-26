@@ -5,7 +5,7 @@ import Stack from '@mui/material/Stack';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { Link } from "react-router-dom";
+import Link from '@mui/material/Link';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 
@@ -53,7 +53,7 @@ const metroplitan = [
         )}
       />
     </Stack>
-    <Link to="/Municipality"className="justify-content-end">Next <ArrowForwardIcon/></Link>
+    <Link href ="/Municipality"className="justify-content-end">Next <ArrowForwardIcon/></Link>
          </Box>
        </Container>
      </React.Fragment>
