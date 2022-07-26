@@ -15,7 +15,8 @@ function PieChart(){
          width={'900px'}
          height={'500px'}
          chartType="PieChart"
-         loader ={<div>Loading...</div>}
+         loader ={<div className="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div>
+        }
           data = {[
           ['Task', 'Hours per Day'],
           ['Bank',     11],

@@ -8,6 +8,9 @@ import login from './Components/auth/login';
 import Register from './Components/auth/Register';
 import PieChart from './Components/Piechart';
 import Chat from './Components/chat';
+import Bank from './Components/questioner/Bank';
+import Municipality from './Components/questioner/Municipality';
+import Retails from './Components/questioner/Retails';
 import axios from 'axios';
 
 axios.defaults.baseURL = "http://localhost:8000";
@@ -25,6 +28,9 @@ function App() {
               <Route path="/Register" component={Register}></Route>
               <Route path="/PieChart" component={PieChart}></Route>
               <Route path="/Chat" component={Chat}></Route>
+              <Route path="/Bank" component={Bank}></Route>
+              <Route path="/Municipality" component={Municipality}></Route>
+              <Route path="/Retails" component={Retails}></Route>
         </Switch>
       </Router>
 
