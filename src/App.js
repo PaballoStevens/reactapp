@@ -8,15 +8,14 @@ import login from './Components/auth/login';
 import Register from './Components/auth/Register';
 import PieChart from './Components/Piechart';
 import Chat from './Components/chat';
-import Bank from './Components/questioner/Bank';
-import Municipality from './Components/questioner/Municipality';
-import Retails from './Components/questioner/Retails';
-import axios from 'axios';
+import Test from './Components/admin/Test';
+import View from './Components/view';
+//import axios from 'axios';
 
-axios.defaults.baseURL = "http://localhost:8000";
-axios.defaults.headers.post['Content-Type'] = "application/json";
-axios.defaults.headers.post['Accept'] = "application/json";
-axios.defaults.withCredentials = true;
+//axios.defaults.baseURL = "http://localhost:8000";
+//axios.defaults.headers.post['Content-Type'] = "application/json";
+//axios.defaults.headers.post['Accept'] = "application/json";
+//axios.defaults.withCredentials = true;
 
 function App() {
   return (
@@ -28,9 +27,8 @@ function App() {
               <Route path="/Register" component={Register}></Route>
               <Route path="/PieChart" component={PieChart}></Route>
               <Route path="/Chat" component={Chat}></Route>
-              <Route path="/Bank" component={Bank}></Route>
-              <Route path="/Municipality" component={Municipality}></Route>
-              <Route path="/Retails" component={Retails}></Route>
+              <Route path="/Test" component={Test}></Route>
+              <Route path="/View" component={View}></Route>
         </Switch>
       </Router>
 
